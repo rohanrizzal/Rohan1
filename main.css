@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Colored Buttons */
+.red-button {
+    background-color: #FF4C4C;
+}
+
+.blue-button {
+    background-color: #4C6EFF;
+}
+
+.green-button {
+    background-color: #4CFF6E;
+}
+
+.yellow-button {
+    background-color: #FFEE4C;
+}
+
+/* Surprise Button */
+.surprise-button {
+    background-color: #FF69B4;
+    color: white;
+}
+
+.surprise-button:hover {
+    background-color: #FF1493;
+}
+
+/* Other Buttons (Generate, Reset, Speak) */
+.generate-button {
+    background-color: #8E44AD;
+    color: white;
+}
+
+.reset-button {
+    background-color: #FF6347;
+    color: white;
+}
+
+.speak-button {
+    background-color: #3498DB;
+    color: white;
+}
+
+/* Story Display */
+#storyDisplay {
+    margin: 20px 0;
+    font-size: 1.5em;
+    background-color: #fff;
+    padding: 15px;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+
+/* Icon Styling */
+.icon {
+    font-size: 1.5em;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f0f8ff;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #e0e0e0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #storyDisplay {
+        font-size: 1.2em;
+    }
+}
